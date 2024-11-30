@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link href="./output.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | Bento grid</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="flex h-screen w-full flex-col items-center justify-center rounded-lg font-sans size-[1.125rem] font-normal leading-tight max-w-[60rem] mx-auto"
+    >
+      <div
+        class="md:grid h-full w-full md:grid-cols-4 md:grid-rows-10 gap-8 flex flex-col"
+      >
+        <!-- 1 -->
+        <div
+          class="row-span-5 rounded-xl p-8 bg-yellow-100 font-bold place-content-center grid max-md:hidden"
+        >
+          <h2>
+            Create and schedule content <em class="text-[#7650dc]">quicker.</em>
+          </h2>
+          <img
+            src="assets/images/illustration-create-post.webp"
+            alt="create posts with bento ai"
+          />
+        </div>
+        <!-- 2 -->
+        <div
+          class="row-span-4 col-span-2 rounded-xl bg-purple-500 p-6 text-center grid text-white place-content-center"
+        >
+          <h1>
+            Social media <span class="text-[#ffcb6b]">10x</span>
+            <em>Faster</em> with AI
+          </h1>
+          <img
+            src="assets/images/illustration-five-stars.webp"
+            alt="five star reviews with bento AI"
+            class="max-w-[10rem] mx-auto"
+          />
+          <small>Over 4,000 5-star reviews</small>
+        </div>
+        <!-- mobile -->
+
+        <div class="row-span-3 rounded-xl bg-white p-4 grid md:hidden">
+          <img
+            src="assets/images/illustration-multiple-platforms.webp"
+            alt="manage multiple platforms with bento ai"
+            class="relative -right-8 max-w-full mb-4"
+          />
+          <h2>Manage multiple accounts and platforms.</h2>
+        </div>
+
+        <div
+          class="row-span-3 rounded-xl bg-yellow-500 p-4 grid md:overflow-hidden md:hidden"
+        >
+          <h2>Maintain a consistent posting schedule.</h2>
+          <img
+            src="assets/images/illustration-consistent-schedule.webp"
+            alt="consistency with bento ai"
+            class="relative max-w-full"
+          />
+        </div>
+
+        <!-- 3 -->
+        <div
+          class="row-span-7 rounded-xl bg-purple-100 p-4 pl-6 grid mdplace-content-center md:overflow-x-hidden max-md:text-center"
+        >
+          <h2>Schedule to social media.</h2>
+          <img
+            src="assets/images/illustration-schedule-posts.webp"
+            alt="schedule posts with bento ai"
+            class="relative md:-right-6 max-w-full max-md:mx-auto"
+          />
+          <small
+            >Optimize post timings to publish content at the perfect time for
+            your audience.</small
+          >
+        </div>
+        <!-- Mobile -->
+        <div
+          class="row-span-3 col-span-2 rounded-xl bg-purple-500 p-4 grid text-white place-items-center grid-cols-1 md:hidden"
+        >
+          <img
+            src="assets/images/illustration-grow-followers.webp"
+            alt="grow followers with bento ai"
+          />
+          <h2>Grow followers with non-stop content.</h2>
+        </div>
+
+        <div
+          class="row-span-3 rounded-xl bg-white p-4 grid md:overflow-hidden md:hidden"
+        >
+          <h1>>56%</h1>
+          <small>faster audience growth</small>
+          <img
+            src="assets/images/illustration-audience-growth.webp"
+            alt="audience growth with bento ai"
+          />
+        </div>
+
+        <div
+          class="row-span-5 rounded-xl p-8 bg-yellow-100 font-bold place-content-center grid md:hidden"
+        >
+          <h2>
+            Create and schedule content <em class="text-[#7650dc]">quicker.</em>
+          </h2>
+          <img
+            src="assets/images/illustration-create-post.webp"
+            alt="create posts with bento ai"
+          />
+        </div>
+
+        <div
+          class="row-span-5 rounded-xl bg-yellow-500 p-6 grid md:overflow-hidden md:hidden"
+        >
+          <h2>Write your content using AI.</h2>
+          <img
+            src="assets/images/illustration-ai-content.webp"
+            alt="write content with bento ai"
+            class="relative max-w-full"
+          />
+        </div>
+        <!-- 4 -->
+        <div
+          class="row-span-3 rounded-xl bg-white p-4 grid md:overflow-x-hidden max-md:hidden"
+        >
+          <img
+            src="assets/images/illustration-multiple-platforms.webp"
+            alt="manage multiple platforms with bento ai"
+            class="relative -right-8 max-w-full mb-4"
+          />
+          <h2>Manage multiple accounts and platforms.</h2>
+        </div>
+        <!-- 5 -->
+        <div
+          class="row-span-3 rounded-xl bg-yellow-500 p-4 grid md:overflow-hidden max-md:hidden"
+        >
+          <h2>Maintain a consistent posting schedule.</h2>
+          <img
+            src="assets/images/illustration-consistent-schedule.webp"
+            alt="consistency with bento ai"
+            class="relative max-w-full"
+          />
+        </div>
+        <!-- 6 -->
+        <div
+          class="row-span-5 rounded-xl bg-yellow-500 p-6 grid md:overflow-hidden max-md:hidden"
+        >
+          <h2>Write your content using AI.</h2>
+          <img
+            src="assets/images/illustration-ai-content.webp"
+            alt="write content with bento ai"
+            class="relative max-w-full"
+          />
+        </div>
+        <!-- 7 -->
+        <div
+          class="row-span-3 rounded-xl bg-white p-4 grid md:overflow-hidden max-md:hidden"
+        >
+          <h1>>56%</h1>
+          <small>faster audience growth</small>
+          <img
+            src="assets/images/illustration-audience-growth.webp"
+            alt="audience growth with bento ai"
+          />
+        </div>
+        <!-- 8 -->
+        <div
+          class="row-span-3 col-span-2 rounded-xl bg-purple-500 p-4 grid text-white place-items-center grid-cols-2 max-md:hidden"
+        >
+          <img
+            src="assets/images/illustration-grow-followers.webp"
+            alt="grow followers with bento ai"
+          />
+          <h2>Grow followers with non-stop content.</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
